@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "tfidf": {
+      "average_precision_5": 0.114946,
+      "average_recall_5": 0.303086,
+      "precision_patients_count": 5192,
+      "recall_patients_count": 3329
+    },
+    "bm25": {
+      "average_precision_5": 0.113675,
+      "average_recall_5": 0.30014,
+      "precision_patients_count": 5192,
+      "recall_patients_count": 3329
+    }
+  },
+  "patients_with_no_ground_truth_excluded_from_average_recall": 1863,
+  "total_patients": 5192,
+  "average_top5_jaccard_overlap_tfidf_bm25": 0.54483
+}
